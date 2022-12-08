@@ -1,0 +1,9 @@
+cargo:rerun-if-changed-env=CARGO_FEATURE_CLIENT
+cargo:rerun-if-changed-env=CARGO_FEATURE_SERVER
+cargo:rerun-if-changed-env=CARGO_FEATURE_UNSTABLE_PROTOCOLS
+cargo:rerun-if-changed=./protocols/stable/presentation-time/presentation-time.xml
+cargo:rerun-if-changed=./protocols/stable/viewporter/viewporter.xml
+cargo:rerun-if-changed=./protocols/stable/xdg-shell/xdg-shell.xml
+cargo:rerun-if-changed=./misc/gtk-primary-selection.xml
+cargo:rerun-if-changed=./misc/input-method-unstable-v2.xml
+cargo:rerun-if-changed=./misc/server-decoration.xml
